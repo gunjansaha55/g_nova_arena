@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Refund/Cancellation Policy | G. NOVA ARENA</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="./assets/G.NOVA_ARENA.png" sizes="32x32" />
+   <link rel="apple-touch-icon" href="./assets/G.NOVA_ARENA.png" />
+  <style>
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 4rem 2rem;
+    }
+    h1.title {
+      color: #4DFF00;
+      font-size: 2.5rem;
+      text-align: center;
+      margin-top: -5rem;
+      margin-bottom: 2rem;
+    }
+    .disclaimer-text {
+      color: #A5FFA5;
+      line-height: 1.6;
+      white-space: pre-line;
+      background: rgba(29, 95, 0, 0.2);
+      border: 1px solid #4DFF00;
+      border-radius: 16px;
+      padding: 1.5rem;
+      
+      box-shadow: 0 0 12px rgba(77, 255, 0, 0.2);
+    }
+
+
+
+@media (max-width: 768px) {
+
+ h1.title{
+  font-size: 1.2rem;
+ }
+
+}
+
+
+@media only screen and (width:375px) and (height:667px){
+
+h1.title {
+    font-size: 1rem !important; /* Change heading font size for iPhone SE */
+  }
+}
+
+
+@media only screen and (width:344px) and (height:882px){
+
+
+ h1.title{
+   font-size: 1rem !important;
+ }
+
+
+}
+
+
+
+
+@media only screen and (width:360px) and (height:740px){
+
+
+ h1.title{
+   font-size: 1rem !important;
+ }
+
+
+}
+
+
+
+  </style>
+</head>
+<body>
+
+<nav id="desktop-nav">
+      <div class="logo-container">
+  <a href="index.html">
+    <img src="./assets/profile-pic.png" alt="G. NOVA ARENA Logo" class="logo-img" />
+  </a>
+</div>
+
+</nav>
+
+<section id="disclaimer">
+  <h1 class="title">Refund/Cancellation Policy</h1>
+  <div class="disclaimer-text">
+    1. Registration & Payment
+
+Registrations are confirmed only after full payment via the UPI QR code and complete Google Form submission.
+
+2. Refund Conditions
+
+Refunds are only issued if the total number of teams required for an event is not met. 
+
+No refunds will be issued for voluntary cancellations or no-shows after registration.
+
+3. Refund Process
+
+If eligible, refunds will be processed manually to the original UPI account within 5–10 working days.
+
+4. Cancellation by Organiser
+
+In rare cases where an event is cancelled by G. NOVA ARENA, full refunds will be provided.
+  </div>
+
+  <div style="text-align: center; margin-top: 2rem;">
+    <a href="index.html#footer">
+      <img
+        src="./assets/left-arrow.png"
+        alt="Back to main page"
+        style="width: 32px; height: 32px; cursor: none; transition: transform 0.3s ease;"
+        onmouseover="this.style.transform='scale(1.2)'"
+        onmouseout="this.style.transform='scale(1)'"
+      />
+    </a>
+  </div>
+</section>
+
+<div class="neon-cursor"></div>
+
+<script>
+  const cursor = document.querySelector('.neon-cursor');
+  let mouseX = 0, mouseY = 0;
+
+document.addEventListener("mousemove", (e) => {
+  requestAnimationFrame(() => {
+    cursor.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+  });
+});
+
+</script>
+
+</body>
+</html>

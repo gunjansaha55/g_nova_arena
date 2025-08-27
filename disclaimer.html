@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Disclaimer | G. NOVA ARENA</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="./assets/G.NOVA_ARENA.png" sizes="32x32" />
+   <link rel="apple-touch-icon" href="./assets/G.NOVA_ARENA.png" />
+  <style>
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 4rem 2rem;
+    }
+    h1.title {
+      color: #4DFF00;
+      font-size: 2.5rem;
+      text-align: center;
+      margin-top: -5rem;
+      margin-bottom: 2rem;
+    }
+    .disclaimer-text {
+      color: #A5FFA5;
+      line-height: 1.6;
+      white-space: pre-line;
+      background: rgba(29, 95, 0, 0.2);
+      border: 1px solid #4DFF00;
+      border-radius: 16px;
+      padding: 1.5rem;
+
+      box-shadow: 0 0 12px rgba(77, 255, 0, 0.2);
+    }
+
+
+@media (max-width: 768px) {
+
+ h1.title{
+  font-size: 1.2rem;
+ }
+
+}
+
+
+
+
+
+
+  </style>
+</head>
+<body>
+
+<nav id="desktop-nav">
+      <div class="logo-container">
+  <a href="index.html">
+    <img src="./assets/profile-pic.png" alt="G. NOVA ARENA Logo" class="logo-img" />
+  </a>
+</div>
+
+</nav>
+
+<section id="disclaimer">
+  <h1 class="title">Disclaimer</h1>
+  <div class="disclaimer-text">
+   The information and services provided by G. NOVA ARENA are for general purposes only. While we strive to offer safe and fair competitions, we make no warranties or guarantees of any kind, express or implied.
+
+Participation Risk
+
+. By participating in any of our events, especially offline sports activities, you accept full responsibility for any injury or loss. We are not liable for any medical, physical, financial damages, or fatal injuries resulting from event participation. G. NOVA ARENA shall not be held liable for any fatal injuries or deaths occurring during participation in offline events.
+
+Health & Safety Disclaimer
+
+. Participants are responsible for ensuring they are medically fit to take part in our offline sports tournaments. Individuals with pre-existing health conditions, including but not limited to heart disease or other serious medical issues, are strongly advised to refrain from participation. Our organisation will not be held liable for any health-related incidents, injuries, or complications that may arise during participation.
+
+Betting Policy
+
+. Our organisation strictly does not promote, encourage, or support any form of betting or gambling. Any individual or group found engaging in betting activities within our organisation’s events, or misusing our organisation’s name to conduct or promote betting, will face strict legal action.
+
+Website Content
+
+. Event details, leaderboards, or rules may change without notice. We are not responsible for any inaccuracies or omissions.
+
+  </div>
+
+  <div style="text-align: center; margin-top: 2rem;">
+    <a href="index.html#footer">
+      <img
+        src="./assets/left-arrow.png"
+        alt="Back to main page"
+        style="width: 32px; height: 32px; cursor: none; transition: transform 0.3s ease;"
+        onmouseover="this.style.transform='scale(1.2)'"
+        onmouseout="this.style.transform='scale(1)'"
+      />
+    </a>
+  </div>
+</section>
+
+<div class="neon-cursor"></div>
+
+<script>
+  const cursor = document.querySelector('.neon-cursor');
+  let mouseX = 0, mouseY = 0;
+
+  document.addEventListener("mousemove", (e) => {
+  requestAnimationFrame(() => {
+    cursor.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+  });
+});
+
+</script>
+
+</body>
+</html>

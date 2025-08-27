@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy | G. NOVA ARENA</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="./assets/G.NOVA_ARENA.png" sizes="32x32" />
+   <link rel="apple-touch-icon" href="./assets/G.NOVA_ARENA.png" />
+  <style>
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 4rem 2rem;
+    }
+    h1.title {
+      color: #4DFF00;
+      font-size: 2.5rem;
+      text-align: center;
+      margin-top: -5rem;
+      margin-bottom: 2rem;
+    }
+    .policy-text {
+      color: #A5FFA5;
+      line-height: 1.6;
+      white-space: pre-line;
+      background: rgba(29, 95, 0, 0.2);
+      border: 1px solid #4DFF00;
+      border-radius: 16px;
+      padding: 1.5rem;
+  
+      box-shadow: 0 0 12px rgba(77, 255, 0, 0.2);
+    }
+
+
+
+@media (max-width: 768px) {
+
+ h1.title{
+  font-size: 1.2rem;
+ }
+
+}
+
+
+
+
+
+
+
+
+
+
+  </style>
+</head>
+<body>
+
+<nav id="desktop-nav">
+      <div class="logo-container">
+  <a href="index.html">
+    <img src="./assets/profile-pic.png" alt="G. NOVA ARENA Logo" class="logo-img" />
+  </a>
+</div>
+
+</nav>
+
+<section id="privacy">
+  <h1 class="title">Privacy Policy</h1>
+  <div class="policy-text">
+    G. NOVA ARENA values your privacy. This policy outlines how we collect, use, and protect your information.
+
+    1. Information We Collect
+    When you register for an event, we collect:
+    - Full Name
+    - Age
+    - Gender
+    - Phone Number / WhatsApp Number
+    - Email Address
+
+    2. How We Use Your Information
+    - To manage and communicate about events
+    - To verify participant eligibility
+    - To publish event leaderboards (top 10 teams and members)
+
+    3. Data Sharing and Selling
+    We do not sell, rent, or trade your data with any third party.
+
+    4. Data Storage
+    All data is stored securely in our Google account environment. Only authorized personnel can access it.
+
+    5. Cookies
+    We do not use cookies on our website.
+
+    6. Data Retention
+    We retain your data only as long as needed for event-related purposes.
+
+    7. Your Rights
+    You may request data deletion or correction by contacting us at g.novaarena@gmail.com.
+  </div>
+
+  <div style="text-align: center; margin-top: 2rem;">
+    <a href="index.html#footer">
+      <img
+        src="./assets/left-arrow.png"
+        alt="Back to main page"
+        style="
+          width: 32px;
+          height: 32px;
+          cursor: none;
+          transition: transform 0.3s ease;
+        "
+        onmouseover="this.style.transform='scale(1.2)'"
+        onmouseout="this.style.transform='scale(1)'"
+      />
+    </a>
+  </div>
+</section>
+
+<div class="neon-cursor"></div>
+
+<script>
+  const cursor = document.querySelector('.neon-cursor');
+  let mouseX = 0, mouseY = 0;
+
+ document.addEventListener("mousemove", (e) => {
+  requestAnimationFrame(() => {
+    cursor.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+  });
+});
+
+</script>
+
+</body>
+</html>

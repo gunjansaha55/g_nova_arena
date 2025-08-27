@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Terms and Conditions | G. NOVA ARENA</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="./assets/G.NOVA_ARENA.png" sizes="32x32" />
+   <link rel="apple-touch-icon" href="./assets/G.NOVA_ARENA.png" />
+  <style>
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 4rem 2rem;
+    }
+    h1.title {
+      color: #4DFF00;
+      font-size: 2.5rem;
+      text-align: center;
+      margin-top: -5rem;
+      margin-bottom: 2rem;
+    }
+    .terms-text {
+      color: #A5FFA5;
+      line-height: 1.6;
+      white-space: pre-line;
+      background: rgba(29, 95, 0, 0.2);
+      border: 1px solid #4DFF00;
+      border-radius: 16px;
+      padding: 1.5rem;
+ 
+      box-shadow: 0 0 12px rgba(77, 255, 0, 0.2);
+    }
+
+
+
+
+@media (max-width: 768px) {
+
+ h1.title{
+  font-size: 1.2rem;
+ }
+
+}
+
+
+
+
+
+
+
+  </style>
+</head>
+<body>
+
+<nav id="desktop-nav">
+      <div class="logo-container">
+  <a href="index.html">
+    <img src="./assets/profile-pic.png" alt="G. NOVA ARENA Logo" class="logo-img" />
+  </a>
+</div>
+
+</nav>
+
+<section id="terms">
+  <h1 class="title">Terms and Conditions</h1>
+  <div class="terms-text">
+    Welcome to G. NOVA ARENA! These Terms and Conditions ("Terms") govern your use of our website and participation in our online and offline events.
+
+1. Acceptance of Terms
+
+By accessing our website or registering for any event, you agree to these Terms.
+
+2. Eligibility
+
+Participants must be 18 years or older. We reserve the right to verify age and identity before or during events.
+
+3. Registration Process
+
+All event registrations are done via Google Forms linked through our website. You must provide accurate information including name, age, gender, phone number, email, etc.
+
+4. Payments
+
+Entry fees are paid via UPI QR code (no payment gateway integration). A successful payment and form submission confirm your registration.
+
+5. Event Participation
+
+. Online Events: Cheating is strictly prohibited. G. NOVA ARENA reserves the right to disqualify any participant and make final decisions.
+
+. Offline Events: Rough play is not allowed. Participation is at your own risk. We facilitate transport to medical help but are not liable for medical costs.
+
+6. Betting Policy
+
+Our organisation strictly does not promote, encourage, or support any form of betting or gambling. Any individual or group found engaging in betting activities within our organisation’s events, or misusing our organisation’s name to conduct or promote betting, will face strict legal action.
+
+7. Health & Safety Disclaimer
+
+Participants are responsible for ensuring they are medically fit to take part in our offline sports tournaments. Individuals with pre-existing health conditions, including but not limited to heart disease or other serious medical issues, are strongly advised to refrain from participation. Our organisation will not be held liable for any health-related incidents, injuries, or complications that may arise during participation.
+
+8. Leaderboards
+
+After each event, we publish the top 10 teams and their members on our website.
+
+9. Intellectual Property
+
+All content on our website is owned or licensed by G. NOVA ARENA. Unauthorized use is prohibited.
+
+10. Limitation of Liability
+
+We are not responsible for any injury, loss, or damage arising from your participation in events.
+
+11. Amendments
+
+We may update these Terms at any time. Continued use of the site or participation in events indicates acceptance of the revised terms.
+
+  </div>
+
+  <div style="text-align: center; margin-top: 2rem;">
+    <a href="index.html#footer">
+      <img
+        src="./assets/left-arrow.png"
+        alt="Back to main page"
+        style="
+          width: 32px;
+          height: 32px;
+          cursor: none;
+          transition: transform 0.3s ease;
+        "
+        onmouseover="this.style.transform='scale(1.2)'"
+        onmouseout="this.style.transform='scale(1)'"
+      />
+    </a>
+  </div>
+</section>
+
+<div class="neon-cursor"></div>
+
+<script>
+  const cursor = document.querySelector('.neon-cursor');
+  let mouseX = 0, mouseY = 0;
+
+ document.addEventListener("mousemove", (e) => {
+  requestAnimationFrame(() => {
+    cursor.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+  });
+});
+
+</script>
+
+</body>
+</html>
